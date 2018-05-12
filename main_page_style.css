@@ -52,11 +52,26 @@
     
 }
  body{
-  color: #fff;
-  background-color:#f0f0f0;
-  font-family:helvetica;
+ 
   background-position: center;
   background: url('main.jpg');
  background-size: cover;
     background-repeat:no-repeat;
+}
+
+
+
+
+
+
+.card-block {
+    float: bottom;
+    margin: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 19px;
+    color: brown;
+   
+}
+.btn btn-primary {
+    margin: 0 auto;
 }

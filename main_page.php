@@ -57,6 +57,45 @@
 </div>
         
         
+         <div class="container">
+        
+        <!-- cards -->
+    <div class="row">
+        <div class="col-md-6 col-lg-4">
+    <div class="card">
+        <img src="vegetarian.jpg"  alt="vegetarian" class="card-img-top img-fluid" />
+  <div class="card-block">
+    <h3 class="card-title">Vegetarian salads</h3>
+    <p>Yummy veg and fruit boosters.</p>
+    <a href="#" class="btn btn-primary">See recipes</a>
+  </div>
+</div>
+        </div>
+        
+    <div class="col-md-6 col-lg-4">
+    <div class="card">
+        <img src="meaty_salad.jpg" alt="meaty salad" class="card-img-top img-fluid" />
+  <div class="card-block">
+    <h3 class="card-title">Meaty salads</h3>
+    <p>Healthy salads with some extra power</p>
+    <a href="#" class="btn btn-primary">See recipes</a>
+  </div>
+</div>
+    </div>
+       <div class="col-md-6 col-lg-4">
+    <div class="card">
+        <img src="pasta_salad.jpg" alt="pasta salad" class="card-img-top img-fluid" />
+  <div class="card-block">
+    <h3 class="card-title">Pasta salads</h3>
+    <p>Veg and carbs psssst</p>
+    <a href="#" class="btn btn-primary">See recipes</a>
+  </div>
+</div>
+            </div>
+        </div>
+        </div>
+        
+        
         <?php
         // put your code here
         ?>
