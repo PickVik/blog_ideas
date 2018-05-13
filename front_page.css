@@ -1,0 +1,216 @@
+
+
+body {
+    font-family: 'Noto Serif';
+    padding:5px
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: left;
+    background: #B9E6F2;
+    border-radius: 6px 6px 0px 0px;
+    margin-left:15px;    
+}
+
+
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
+#share-buttons a {
+  transition: transform 0.5s ease-in-out;
+}
+
+#share-buttons:hover a {
+  transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #8f50e7;
+    border-radius: 0px 0px 6px 6px;
+    margin-left:15px;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.topnav ul {
+    list-style-type: none;
+    float: left;
+}
+.topnav ul li {
+    float: left;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.3em;
+    margin-top: 50px;
+}
+.topnav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 28px;
+    text-decoration: none;
+}
+.topnav ul li a:hover {
+	color: #B9E6F2;
+    background-color: #d5c4f3;
+    
+}
+
+.topnav .logo {
+	float: left; 
+        margin-top: -80px;
+}
+.topnav .logo h1 {
+	color: #B9E6F2;
+	font-size: 6em;
+	letter-spacing: 5px;
+	font-weight: 100;
+	font-family: 'Tangerine', cursive;
+}
+
+.topnav .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.topnav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.topnav .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.topnav .dropdown-content a:hover {background-color: #ddd}
+
+.topnav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.topnav .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 15px;
+    
+}
+
+#username {
+    background-color: #B9E6F2;
+}
+
+#pwd {
+    background-color: #B9E6F2;
+}
+#btn {
+    background-color: #B9E6F2;
+}
+
+a {
+    color: black;
+}
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: #8f50e7;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left:15px;
+    
+}
+
+.card-block {
+    margin: 0 auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background-color: #50dae7;
+  text-align: center;
+  width: 100%;
+  margin: 20px auto 0px;
+  padding: 20px 0px;
+}
+
+  
+
+.footer .heart {
+    color: blueviolet;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+
